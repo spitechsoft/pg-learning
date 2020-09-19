@@ -5,9 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#000000">
-    <TextView
-        android:text="Portrait"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_gravity="center_vertical"
+        android:text="Go To Second Screen"
         android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnSubmit2"
+        android:layout_gravity="center_vertical"
+        android:text="Open Url"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
         android:layout_height="wrap_content"/>
 </LinearLayout>
